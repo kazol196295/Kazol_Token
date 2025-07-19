@@ -1,0 +1,20 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+/kaz-token-dashboard/node_modules
+/kaz-token-dashboard/next
+/hardhat-cache
+/hardhat-artifacts
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337

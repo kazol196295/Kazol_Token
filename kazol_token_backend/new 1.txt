@@ -1,0 +1,17 @@
+token design
+- initial supply     70,000,000  [done]
+-max supply(capped) 100,000,000 [done]
+-burnable 
+-Create block reward to distribute new supply to miners  [done]
+blockReward
+
+update
+
+_mintMinerReward
+
+
+
+
+const token = await ethers.getContractAt("KazolToken", "0x93a0E81E52C06CF35D11d8098482c7141AC23b15")
+(await token.name()).toString()
+(await token.totalSupply()).toString()
