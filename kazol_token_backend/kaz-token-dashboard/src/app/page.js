@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
-import kazolToken from '../app/kazolToken.json';
+import kazolToken from '../app/token/KazolToken.json';
 
 const tokenABI = kazolToken.abi;
 const tokenAddress = '0x93a0E81E52C06CF35D11d8098482c7141AC23b15';
